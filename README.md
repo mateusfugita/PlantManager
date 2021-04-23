@@ -18,6 +18,9 @@ Layout do projeto no [Figma](https://www.figma.com/file/ay33IWgNuQMA9HG4b3U636/P
 - [GestureHandler](https://docs.expo.io/versions/latest/sdk/gesture-handler/)
 - [React Native iPhone X Helper](https://github.com/ptelad/react-native-iphone-x-helper)
 - [Svg](https://docs.expo.io/versions/latest/sdk/svg/)
+- [AsyncStorage](https://docs.expo.io/versions/latest/sdk/async-storage/)
+- [DateTimePicker](https://docs.expo.io/versions/latest/sdk/date-time-picker/)
+- [Date-fns](https://date-fns.org/)
 
 ## Como rodar a aplicação
 1. Instalar as dependências
