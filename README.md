@@ -21,6 +21,7 @@ Layout do projeto no [Figma](https://www.figma.com/file/ay33IWgNuQMA9HG4b3U636/P
 - [AsyncStorage](https://docs.expo.io/versions/latest/sdk/async-storage/)
 - [DateTimePicker](https://docs.expo.io/versions/latest/sdk/date-time-picker/)
 - [Date-fns](https://date-fns.org/)
+- [Notifications](https://docs.expo.io/versions/latest/sdk/notifications/)
 
 ## Como rodar a aplicação
 1. Instalar as dependências
@@ -28,12 +29,14 @@ Layout do projeto no [Figma](https://www.figma.com/file/ay33IWgNuQMA9HG4b3U636/P
 yarn install
 ```
 
-2. Iniciar a aplicação
+2. Editar o arquivo **api.ts** em `./src/services/api.ts`, colocando seu endereço IP no local indicado.
+
+3. Iniciar a aplicação
 ```
 yarn start
 ```
 
-3. Executar o JSON Server para obter os dados das plantas
+4. Executar o JSON Server para obter os dados das plantas
 ```
 json-server ./src/services/server.json --host <SEU_ENDEREÇO_IP> --port 3333
 ```
